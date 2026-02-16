@@ -1,0 +1,11 @@
+User-agent: *
+# Disallow indexing of private directories
+Disallow: /backups/
+Disallow: /config/
+Disallow: /tmp/
+
+# Allow indexing of public assets
+Allow: /error.php
+
+# TODO: Remove the beta panel after deployment - Abhishek
+Sitemap: http://localhost:8000/sitemap.xml
